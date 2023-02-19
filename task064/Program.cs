@@ -14,13 +14,13 @@ Console.Write($"N = {n} -> {NatureNumb(n)}");
 string NatureNumb(int numb)
 {
     if (numb == 1) return Convert.ToString(numb);
-    return numb + ", " + NatureNumb(numb-1);
+    return numb + ", " + NatureNumb(numb - 1);
 }
 
 
 
 /*=========================================
-Результат (вариант1):
+Результат:
 ===========================================
 
 Задайте число N: 8
